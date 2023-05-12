@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form style="border: 5px solid skyblue; padding: 20px;">
+    <h2 style="color: blue; text-align: center;">Get in Touch</h2>
+    <label for="fname" style="color: rgb(25, 9, 171);">First Name:</label>
+    <input type="text" id="fname" name="fname" style="background-color: lavender;"><br><br>
+    <label for="lname" style="color: rgb(0, 21, 255);">Last Name:</label>
+    <input type="text" id="lname" name="lname" style="background-color: lavender;"><br><br>
+    <label for="email" style="color: blue;">Email:</label>
+    <input type="email" id="email" name="email" style="background-color: lavender;"><br><br>
+    <label for="phone" style="color: blue;">Phone:</label>
+    <input type="tel" id="phone" name="phone" style="background-color: lavender;"><br><br>
+    <label for="address" style="color: blue;">Address:</label>
+    <input type="text" id="address" name="address" style="background-color: lavender;"><br><br>
+    <label for="message" style="color: blue;">Type your message here:</label><br>
+    <textarea id="message" name="message" rows="5" cols="30" style="background-color: lavender;"></textarea><br><br>
+    <input type="submit" value="Submit" style="background-color: skyblue; color: blue; border: none; padding: 10px 20px; border-radius: 5px;">
+  </form>
+  
+</body>
+</html>
